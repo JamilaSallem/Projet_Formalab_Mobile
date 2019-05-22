@@ -44,7 +44,7 @@ public class ActivityList extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         if (item.getItemId() == R.id.add)
         {
-            Intent intent = new Intent(ActivityList.this,ADDcontact.class);
+            Intent intent = new Intent(ActivityList.this,AddProject.class);
             startActivity(intent);
         }
 
