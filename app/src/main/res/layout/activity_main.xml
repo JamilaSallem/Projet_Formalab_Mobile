@@ -30,11 +30,11 @@
 
     <Button
         android:id="@+id/btn_connect"
-        android:text="Se Connecter"
+        android:text="Sign In"
         android:layout_width="150dp"
         android:layout_height="0dp"
         android:layout_weight="20"
-        android:background="@color/orange"
+        android:background="@color/violet"
         android:layout_marginTop="50dp"
         android:textColor="@color/white"
         android:textSize="18sp"

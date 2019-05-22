@@ -27,9 +27,9 @@ public class ActivityList extends AppCompatActivity {
         list = findViewById(R.id.list);
 
         db = new ProjectManagementDB(this);
-        ArrayList<Employee> contactArrayList = db.getProjects();
+        ArrayList<Project> projectArrayList = db.getProjects();
 
-        final AdapterClass adapter = new AdapterClass(this,contactArrayList);
+        final AdapterClass adapter = new AdapterClass(this,projectArrayList);
         list.setAdapter(adapter);
 
     }
@@ -51,5 +51,6 @@ public class ActivityList extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
 }
 
