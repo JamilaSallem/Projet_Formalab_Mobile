@@ -64,7 +64,6 @@ public class ProjectManagementDB extends SQLiteOpenHelper {
 
                 String username = cursor.getString(cursor.getColumnIndex("username"));
                 String password = cursor.getString(cursor.getColumnIndex("password"));
-                Project projet = new Project();
 
                 if(username==uname && password==mdp)
                     found=true;

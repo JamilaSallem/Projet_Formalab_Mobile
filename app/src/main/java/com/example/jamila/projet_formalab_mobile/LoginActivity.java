@@ -54,12 +54,6 @@ public class LoginActivity extends AppCompatActivity {
         username=findViewById(R.id.username);
         password=findViewById(R.id.password);
 
-        btn.setOnClickListener(new OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-            }
-        });
 
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
